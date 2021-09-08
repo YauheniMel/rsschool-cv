@@ -29,6 +29,7 @@ I'm interested in projects in which I will implement my ideas and improve my pro
 * German (_B1_)
 
 ### CONTACTS
+* _Location:_ Vilnius, Lithuania
 * _Phone:_ +37067291835
 * _E-mail:_ 207melnik@gmail.com
 
