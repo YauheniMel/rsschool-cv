@@ -8,7 +8,7 @@ Junior Frontend Developer
 
 <!-- Main content -->
 <!-- Aside content -->
-### PROFILE
+### About Me
 I'm a responsible, proactive, attentive and energetic person who is able to work in a team.
 In the process of self-education and self-organization, I began to learn IT technologies, which are interesting to me and which motivate me to this day.
 I'm interested in projects in which I will implement my ideas and improve my professional qualities.
