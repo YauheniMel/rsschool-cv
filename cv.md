@@ -23,6 +23,24 @@ I'm interested in projects in which I will implement my ideas and improve my pro
 * VueJS
 * NodeJS
 
+### `CODE EXAMPLE`
+```
+    const titleEl = document.createElement('h2');
+    document.body.append(titleEl);
+
+    function typingText(text, elem) {
+      if(!text) return;
+
+      elem.textContent += text[0];
+
+      setTimeout(() => {
+        typingText(text.slice(1), titleEl);
+      }, 100)
+    }
+
+    typingText("Hello world!", titleEl);
+```
+
 ### LANGUAGES
 * Russian (_native_)
 * English (_I can reading the technical manual in English_)
