@@ -8,7 +8,6 @@ Junior Frontend Developer
 
 <!-- Main content -->
 <!-- Aside content -->
-
 ### PROFILE
 I'm a responsible, proactive, attentive and energetic person who is able to work in a team.
 In the process of self-education and self-organization, I began to learn IT technologies, which are interesting to me and which motivate me to this day.
@@ -24,8 +23,14 @@ I'm interested in projects in which I will implement my ideas and improve my pro
 * VueJS
 * NodeJS
 
+### LANGUAGES
+* Russian (_native_)
+* English (_I can reading the technical manual in English_)
+* German (_B1_)
+
 ### CONTACTS
 * _Phone:_ +37067291835
 * _E-mail:_ 207melnik@gmail.com
 
+***
 <!-- Aside content end -->
