@@ -34,3 +34,44 @@ I'm interested in projects in which I will implement my ideas and improve my pro
 
 ***
 <!-- Aside content end -->
+
+<!-- Section content-->
+![education icon](https://img.icons8.com/external-flatarticons-blue-flatarticons/2x/external-education-high-school-flatarticons-blue-flatarticons.png)
+### EDUCATION
+__Institute of the Ministry of Emergency Situations of the Republic of Belarus__
+
+2008 - 2012
+
+_Specialization:_ Emergency Response Engineer
+
+__Gomel State Regional Lyceum__
+
+2006 - 2008
+
+_Specialization:_ Faculty of Physics and Mathematics
+
+__School__
+
+1997 - 2006
+
+![an experience](https://img.icons8.com/external-vitaliy-gorbachev-blue-vitaly-gorbachev/2x/external-lumberjack-labour-day-vitaliy-gorbachev-blue-vitaly-gorbachev.png)
+### WORK EXPERIENCE
+
+__Klaeser Internationale Fachspedition und Fahrzeugbau GmbH__
+
+11/2018 - until now
+
+_position:_ International driver
+
+_description_: Transportation of dangerous goods
+
+__JV Santa Bremor LLC__
+
+07/2016 - 10/2018
+
+_position:_ Driver
+
+_description_: Transportation of food
+
+***
+<!-- Section content end -->
