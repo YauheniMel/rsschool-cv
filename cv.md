@@ -1,6 +1,7 @@
 <!-- Header content -->
 ## Yauheni Melnik
 Junior Frontend Developer
+
 ***
 <!-- Header content end -->
 
