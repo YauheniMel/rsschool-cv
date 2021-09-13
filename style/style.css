@@ -192,6 +192,33 @@ body {
   border: 1px solid aliceblue;
 }
 
+.contacts__location {
+
+}
+
+.contacts__location-icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.contacts__phone {
+
+}
+
+.contacts__phone-icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.contacts__email {
+
+}
+
+.contacts__email-icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+
 .contacts__list :nth-child(2n) {
   border-top: none;
   border-bottom: none;
@@ -220,36 +247,63 @@ body {
 }
 
 .education {
-  margin-bottom: 80px;
+  margin-bottom: 30px;
+}
+
+.education__head {
+
+}
+
+.education__icon {
+
 }
 
 .education__title {
-  padding: 10px 20px;
+  padding: 10px 30px;
+  text-decoration: underline;
 }
 
 .education__item {
+  position: relative;
   margin: 20px 0;
 }
 
 .education__institution {
-
+  width: 400px;
 }
 
 .education__duration {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 .education__specialization {
 }
 .experience {
 }
+
+.experience__head {
+
+}
+
+.experience__icon {
+}
+
 .experience__title {
-  padding: 10px 20px;
+  padding: 10px 30px;
+  text-decoration: underline;
 }
 .experience__item {
+  position: relative;
   margin: 20px 0;
 }
 .experience__company {
+  width: 400px;
 }
 .experience__duration {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 .experience__position {
 }

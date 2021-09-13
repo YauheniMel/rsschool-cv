@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/f729fd950b.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./style/style.css">
   <title>Yauheni Melnik CV</title>
 </head>
@@ -72,9 +73,30 @@ typingText("Hello world!", titleEl);
         <div class="contacts">
           <h3 class="contacts__title">CONTACTS</h3>
           <ul class="contacts__list">
-            <li class="contacts__item"><i>Location:</i> Vilnius, Lithuania</li>
-            <li class="contacts__item"><i>Phone:</i> +37067291835</li>
-            <li class="contacts__item"><i>E-mail:</i> +37067291835</li>
+            <li class="contacts__item">
+              <div class="contacts__location">
+                <div class="contacts__location-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <i>Location:</i> Vilnius, Lithuania
+              </div>
+            </li>
+            <li class="contacts__item">
+              <div class="contacts__phone">
+                <div class="contacts__phone-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <i>Phone:</i> +37067291835
+              </div>
+            </li>
+            <li class="contacts__item">
+              <div class="contacts__email">
+                <div class="contacts__email-icon">
+                  <i class="fas fa-at"></i>
+                </div>
+                <i>E-mail:</i> +37067291835
+              </div>
+            </li>
           </ul>
         </div>
       </aside>
@@ -88,7 +110,12 @@ typingText("Hello world!", titleEl);
             ideas and improve my professional qualities.</p>
         </article>
         <article class="education">
-          <h3 class="education__title">EDUCATION</h3>
+          <div class="education__head">
+            <div class="education__icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3 class="education__title">EDUCATION</h3>
+          </div>
           <div class="education__item">
             <p class="education__institution"><b>Institute of the Ministry of Emergency Situations of the Republic of
                 Belarus</b></p>
@@ -106,7 +133,12 @@ typingText("Hello world!", titleEl);
           </div>
         </article>
         <article class="experience">
-          <h3 class="experience__title">WORK EXPERIENCE</h3>
+          <div class="experience__head">
+            <div class="experience__icon">
+              <i class="fas fa-address-card"></i>
+            </div>
+            <h3 class="experience__title">WORK EXPERIENCE</h3>
+          </div>
           <div class="experience__item">
             <p class="experience__company"><b>Klaeser Internationale Fachspedition und Fahrzeugbau GmbH</b></p>
             <p class="experience__duration">11/2018 - until now</p>
