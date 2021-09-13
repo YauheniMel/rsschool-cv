@@ -211,9 +211,47 @@ body {
   border-bottom: none;
 }
 
+/* Section styles */
 .section {
   flex-grow: 1;
   padding: 80px 100px;
 
   background-color: aliceblue;
+}
+
+.education {
+  margin-bottom: 80px;
+}
+
+.education__title {
+  padding: 10px 20px;
+}
+
+.education__item {
+  margin: 20px 0;
+}
+
+.education__institution {
+
+}
+
+.education__duration {
+}
+.education__specialization {
+}
+.experience {
+}
+.experience__title {
+  padding: 10px 20px;
+}
+.experience__item {
+  margin: 20px 0;
+}
+.experience__company {
+}
+.experience__duration {
+}
+.experience__position {
+}
+.experience__description {
 }
