@@ -115,20 +115,6 @@ body {
   background-color: #1C1925;
 }
 
-.profile {
-  padding: 20px 0;
-}
-
-.profile__title {
-  padding: 10px 30px;
-  text-decoration: underline;
-}
-
-.profile__body {
-  text-align: justify;
-  text-indent: 20px;
-}
-
 .skills {
   padding: 20px 0;
 }
@@ -217,6 +203,20 @@ body {
   padding: 80px 100px;
 
   background-color: aliceblue;
+}
+
+.profile {
+  padding: 20px 0;
+}
+
+.profile__title {
+  padding: 10px 30px;
+  text-decoration: underline;
+}
+
+.profile__body {
+  text-align: justify;
+  text-indent: 20px;
 }
 
 .education {
