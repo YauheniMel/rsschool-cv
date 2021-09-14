@@ -194,15 +194,18 @@ body {
 }
 
 .contacts__location-icon {
-  margin: 0 10px;
+  display: inline-block;
+  margin : 0 10px;
 }
 
 .contacts__phone-icon {
-  margin: 0 10px;
+  display: inline-block;
+  margin : 0 10px;
 }
 
 .contacts__email-icon {
-  margin: 0 10px;
+  display: inline-block;
+  margin : 0 10px;
 }
 
 .contacts__list :nth-child(2n) {
@@ -306,4 +309,51 @@ body {
   position: absolute;
   top     : 0;
   right   : 0;
+}
+
+/* Footer styles */
+.footer {
+  padding-bottom  : 40px;
+  background-color: #262232;
+}
+
+.footer__container {
+  display        : flex;
+  justify-content: space-between;
+
+  height: 70px;
+}
+
+.footer__git {
+  width           : 360px;
+  background-color: #1C1925;
+}
+
+.footer__git-link {
+  margin-left: 20px;
+
+  font-size  : 24px;
+  font-weight: 600;
+  line-height: 70px;
+  color: aliceblue;
+}
+
+.footer__rsschool {
+  flex-grow  : 1;
+  padding-top: 13px;
+
+  text-align      : right;
+  background-color: #c5c8e7;
+}
+
+.footer__year {
+  flex-grow    : 1;
+  padding-right: 20px;
+
+  font-size  : 24px;
+  font-weight: 600;
+  text-align : right;
+  line-height: 70px;
+
+  background-color: #c5c8e7;
 }
