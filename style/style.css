@@ -233,7 +233,7 @@ body {
 }
 
 .profile {
-  padding: 20px 0;
+  /* padding: 20px 0; */
 }
 
 .profile__title {
@@ -247,29 +247,36 @@ body {
 }
 
 .education {
-  margin-bottom: 30px;
+  margin: 70px 0;
+  border-left: 2px solid #1C1925;
 }
 
 .education__head {
-
+  position: relative;
+  right: 50px;
+  border-bottom: 4px double #1C1925;
 }
 
 .education__icon {
+  display: inline-block;
+  width: 40px;
 
+  font-size: 30px;
 }
 
 .education__title {
-  padding: 10px 30px;
-  text-decoration: underline;
+  display: inline-block;
+  padding: 0 30px;
 }
 
 .education__item {
   position: relative;
-  margin: 20px 0;
+  margin: 20px 10px;
 }
 
 .education__institution {
   width: 400px;
+  margin-bottom: 5px;
 }
 
 .education__duration {
@@ -280,25 +287,33 @@ body {
 .education__specialization {
 }
 .experience {
+  margin-bottom: 30px;
+  border-left: 2px solid #1C1925;
 }
 
 .experience__head {
-
+  position: relative;
+  right: 50px;
+  border-bottom: 4px double #1C1925;
 }
 
 .experience__icon {
+  display: inline-block;
+  width: 40px;
+  font-size: 30px;
 }
 
 .experience__title {
-  padding: 10px 30px;
-  text-decoration: underline;
+  display: inline-block;
+  padding: 0 30px;
 }
 .experience__item {
   position: relative;
-  margin: 20px 0;
+  margin: 20px 10px;
 }
 .experience__company {
   width: 400px;
+  margin-bottom: 5px;
 }
 .experience__duration {
   position: absolute;
