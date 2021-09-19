@@ -76,7 +76,7 @@ body {
   display: inline-block;
 
   font-size  : 20px;
-  line-height: 23px;
+  line-height: 21px;
   color      : #c5c8e7;
 
   background: #1C1925;
@@ -214,7 +214,7 @@ body {
 }
 
 /* Section styles */
-.section {
+.article {
   flex-grow: 1;
   padding  : 80px 100px;
 
@@ -261,7 +261,7 @@ body {
 }
 
 .education__institution {
-  width        : 400px;
+  width        : 60%;
   margin-bottom: 5px;
 }
 
@@ -301,7 +301,7 @@ body {
 }
 
 .experience__company {
-  width        : 400px;
+  width        : 60%;
   margin-bottom: 5px;
 }
 
@@ -356,4 +356,174 @@ body {
   line-height: 70px;
 
   background-color: #c5c8e7;
+}
+
+/* adaptive */
+@media (max-width: 920px) {
+  .header__name {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .header__position {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .header__name::after {
+    content : "";
+
+    padding-bottom: 10px;
+    border-right  : 2px solid #1C1925;
+  }
+
+  .header__position::before {
+    content : "";
+
+    padding-top: 8px;
+    border-left: 1px solid #1C1925;
+  }
+
+  .header__photo-wrap, .aside, .footer__git {
+    max-width: 300px;
+  }
+
+  .code__body {
+    width: 260px;
+  }
+
+  .code__content {
+    font-size: 10px;
+  }
+
+  .contacts__item {
+    width: 260px;
+    font-size: 14px;
+  }
+
+  .article {
+    padding: 80px 70px;
+  }
+}
+
+@media (max-width: 780px) {
+  .container {
+    flex-direction: column;
+    background-color: #1C1925;
+  }
+
+  .header__photo-wrap {
+    margin: 0 auto;
+  }
+
+  .header__profile-wrap {
+    padding: 30px;
+  }
+
+  .aside > div {
+    padding: 5px 70px;
+  }
+
+  .code__body {
+    width: 320px;
+  }
+
+  .code__content {
+    font-size: 12px;
+  }
+
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .footer__git, .footer__rsschool, .footer__year {
+    background-color: #1C1925;
+  }
+
+  .footer__git {
+    width: 30%;
+  }
+
+  .footer__git-link {
+    font-size: 18px;
+    margin: 10px;
+  }
+
+  .footer__rsschool {
+    width: 50%;
+    text-align: center;
+    background-color: #c5c8e7;
+  }
+
+  .footer__year {
+    width: 20%;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 490px) {
+  .header__name {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .header__position {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .header__name::after {
+    content : none;
+  }
+
+  .header__position::before {
+    content : none;
+  }
+
+  .aside > div {
+    padding: 5px;
+  }
+
+  .code__body {
+    width: 260px;
+  }
+
+  .code__content {
+    font-size: 10px;
+  }
+
+  .article {
+    padding: 0;
+  }
+
+  .profile {
+    padding: 10px;
+  }
+
+  .education, .experience {
+    padding: 10px;
+    border-left: none;
+  }
+
+  .experience__icon {
+    width  : 30px;
+  }
+
+  .education__head {
+    position: static;
+  }
+
+  .education__duration {
+    position: static;
+  }
+
+  .experience__head {
+    position: static;
+  }
+
+  .experience__duration {
+    position: static;
+  }
 }
