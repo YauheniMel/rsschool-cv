@@ -221,6 +221,11 @@ body {
   background-color: aliceblue;
 }
 
+.article__title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
 .profile__title {
   padding        : 10px 30px;
   text-decoration: underline;
