@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/f729fd950b.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style/style.css">
+  <title>Yauheni Melnik CV</title>
+</head>
+
+<body>
+  <!-- Header content -->
+  <header class="header">
+    <div class="container header__container">
+      <figure class="header__photo-wrap">
+        <img class="header__photo" src="./image/photo.jpg" alt="photo" height="190" width="190">
+      </figure>
+      <div class="header__profile-wrap">
+        <p class="header__name"><span>Yauheni </span>Melnik</p>
+        <h2 class="header__position"><i>Junior Frontend<span> Developer</span></i></h2>
+      </div>
+    </div>
+  </header>
+  <!-- Main content -->
+  <main class="main">
+    <div class="container main__container">
+      <!-- Aside content -->
+      <aside class="aside">
+        <div class="skills">
+          <h3 class="skills__head">TECH SKILLS</h3>
+          <ul class="skills__list">
+            <li class="skills__item">HTML5</li>
+            <li class="skills__item">CSS3</li>
+            <li class="skills__item">SCSS</li>
+            <li class="skills__item">Bootstrap</li>
+            <li class="skills__item">BEM methodology</li>
+            <li class="skills__item">JavaScript</li>
+            <li class="skills__item">VueJS</li>
+            <li class="skills__item">NodeJS</li>
+          </ul>
+        </div>
+        <div class="code">
+          <h3 class="code__title">CODE EXAMPLE</h3>
+          <pre class="code__body">
+            <code class="code__content">
+const titleEl = document.createElement('h2');
+document.body.append(titleEl);
+
+function typingText(text, elem) {
+  if(!text) return;
+
+  elem.textContent += text[0];
+
+  setTimeout(() => {
+    typingText(text.slice(1), titleEl);
+  }, 100)
+}
+
+typingText("Hello world!", titleEl);
+            </code>
+          </pre>
+        </div>
+        <div class="languages">
+          <h3 class="languages__title">LANGUGES</h3>
+          <ul class="languages__list">
+            <li class="languages__item">Russian <i>(native)</i></li>
+            <li class="languages__item">English <i>(I can reading the technical manual in English)</i></li>
+            <li class="languages__item">German <i>(B1)</i></li>
+          </ul>
+        </div>
+        <div class="contacts">
+          <h3 class="contacts__title">CONTACTS</h3>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <div class="contacts__location">
+                <div class="contacts__location-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <i>Location:</i> Vilnius, Lithuania
+              </div>
+            </li>
+            <li class="contacts__item">
+              <div class="contacts__phone">
+                <div class="contacts__phone-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <i>Phone:</i> +37067291835
+              </div>
+            </li>
+            <li class="contacts__item">
+              <div class="contacts__email">
+                <div class="contacts__email-icon">
+                  <i class="fas fa-at"></i>
+                </div>
+                <i>E-mail:</i> +37067291835
+              </div>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <!-- Section content -->
+      <article class="article">
+        <section class="profile">
+          <h2 class="profile__title">ABOUT ME</h2>
+          <p class="profile__body">I'm a responsible, proactive, attentive and energetic person who is able to work in a
+            team. In the process of self-education and self-organization, I began to learn IT technologies, which are
+            interesting to me and which motivate me to this day. I'm interested in projects in which I will implement my
+            ideas and improve my professional qualities.</p>
+        </section>
+        <section class="education">
+          <div class="education__head">
+            <div class="education__icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3 class="education__title">EDUCATION</h3>
+          </div>
+          <div class="education__item">
+            <p class="education__institution"><b>Institute of the Ministry of Emergency Situations of the Republic of
+                Belarus</b></p>
+            <p class="education__duration">2008 - 2012</p>
+            <p class="education__specialization"><i>Specialization:</i> Emergency Response Engineer</p>
+          </div>
+          <div class="education__item">
+            <p class="education__institution"><b>Gomel State Regional Lyceum</b></p>
+            <p class="education__duration">2006 - 2008</p>
+            <p class="education__specialization"><i>Specialization:</i> Faculty of Physics and Mathematics</p>
+          </div>
+          <div class="education__item">
+            <p class="education__institution"><b>School</b></p>
+            <p class="education__duration">1997 - 2006</p>
+          </div>
+        </section>
+        <section class="experience">
+          <div class="experience__head">
+            <div class="experience__icon">
+              <i class="fas fa-address-card"></i>
+            </div>
+            <h3 class="experience__title">WORK EXPERIENCE</h3>
+          </div>
+          <div class="experience__item">
+            <p class="experience__company"><b>Klaeser Internationale Fachspedition und Fahrzeugbau GmbH</b></p>
+            <p class="experience__duration">11/2018 - until now</p>
+            <p class="experience__position"><i>position:</i> International driver</p>
+            <p class="experience__description"><i>description:</i> Transportation of dangerous goods</p>
+          </div>
+          <div class="experience__item">
+            <p class="experience__company"><b>JV Santa Bremor LLC</b></p>
+            <p class="experience__duration">07/2016 - 10/2018</p>
+            <p class="experience__position"><i>position:</i> Driver</p>
+            <p class="experience__description"><i>description:</i> Transportation of food</p>
+          </div>
+        </section>
+      </article>
+    </div>
+  </main>
+  <!-- Footer content -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__git">
+        <a class="footer__git-link" href="https://github.com/YauheniMel">My GIT</a>
+      </div>
+      <div class="footer__rsschool">
+        <a class="footer__rsschool-link" href="https://rs.school/js/">
+          <img src="./image/rs_school.svg" alt="logo rsschool" height="40">
+        </a>
+      </div>
+      <div class="footer__year">
+        2021
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
