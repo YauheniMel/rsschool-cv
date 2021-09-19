@@ -216,7 +216,7 @@ body {
 /* Section styles */
 .article {
   flex-grow: 1;
-  padding  : 80px 100px;
+  padding  : 20px 100px 0 100px;
 
   background-color: aliceblue;
 }
